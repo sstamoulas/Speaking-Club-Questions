@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Speaking-Club-Questions/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Speaking-Club-Questions/static/js/main.d0ea5ab9.chunk.js",
+    "main.js.map": "/Speaking-Club-Questions/static/js/main.d0ea5ab9.chunk.js.map",
+    "runtime-main.js": "/Speaking-Club-Questions/static/js/runtime-main.576c06c8.js",
+    "runtime-main.js.map": "/Speaking-Club-Questions/static/js/runtime-main.576c06c8.js.map",
+    "static/js/2.591c2c1e.chunk.js": "/Speaking-Club-Questions/static/js/2.591c2c1e.chunk.js",
+    "static/js/2.591c2c1e.chunk.js.map": "/Speaking-Club-Questions/static/js/2.591c2c1e.chunk.js.map",
+    "index.html": "/Speaking-Club-Questions/index.html",
+    "precache-manifest.8380677ab8f9a29bfb1ba3b5d72b514d.js": "/Speaking-Club-Questions/precache-manifest.8380677ab8f9a29bfb1ba3b5d72b514d.js",
+    "service-worker.js": "/Speaking-Club-Questions/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Speaking-Club-Questions/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.591c2c1e.chunk.js.LICENSE.txt": "/Speaking-Club-Questions/static/js/2.591c2c1e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Speaking-Club-Questions/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.576c06c8.js",
+    "static/js/2.591c2c1e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d0ea5ab9.chunk.js"
+  ]
+}
