@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Speaking-Club-Questions/precache-manifest.39996eb2540a0e549ca70e335dfe8474.js"
+  "/Speaking-Club-Questions/precache-manifest.d2245a21fa70a5234a0f93756e639ad3.js"
 );
 
 self.addEventListener('message', (event) => {
