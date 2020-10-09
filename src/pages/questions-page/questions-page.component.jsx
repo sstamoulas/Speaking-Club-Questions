@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
 import { fetchQuestionsStart } from './../../redux/question/question.actions';
@@ -42,7 +42,7 @@ const QuestionsPage = ({ color, questions, fetchQuestionsStart, generateRandomCo
     // Remove span after 0.3s 
     setTimeout(() => { 
         ripple.remove(); 
-    }, 300); 
+    }, 500); 
 
     setTimeout(() => {
       setQuestionNumber(Math.floor(Math.random() * questions.length));
@@ -53,10 +53,10 @@ const QuestionsPage = ({ color, questions, fetchQuestionsStart, generateRandomCo
   }
 
   return (
-    <div className=''>
+    <Fragment>
       <Question question={questions[questionNumber]} color={color} />
       <button className='btn' style={{ 'backgroundColor': color }} onClick={handleClick}>New Question</button>
-    </div>
+    </Fragment>
   )
 };
 

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-import { submitQuestionsStart } from '../../redux/question/question.actions';
+import { submitQuestionsStart } from './../../redux/question/question.actions';
 import { generateRandomColor } from './../../redux/color/color.actions';
 import * as ROUTES from './../../constants/routes';
 
@@ -26,7 +26,7 @@ const LandingPage = ({ history, submitQuestionsStart, generateRandomColor }) => 
   }
 
   return (
-    <div>
+    <Fragment>
       <h2 className='page-title'>Please Submit 5 Questions</h2>
       <form onSubmit={handleSubmit}>
         {
@@ -34,7 +34,7 @@ const LandingPage = ({ history, submitQuestionsStart, generateRandomColor }) => 
         }
         <input type="submit" value="Submit Questions" />
       </form>
-    </div>
+    </Fragment>
   )
 };
 

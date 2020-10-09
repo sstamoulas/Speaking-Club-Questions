@@ -30,6 +30,20 @@ export const submitNewQuestions = async (questions) => {
   return docRef;
 }
 
+export const submitNewFeedback = async (feedback) => {
+  const docRef = firestore.collection('speaking-club').doc('feedback');
+
+  try {
+    await docRef.update({
+      feedback: firebase.firestore.FieldValue.arrayUnion(feedback),
+    });
+  } catch(error) {
+    console.log('error submiting new feedback', error.message);
+  }
+
+  return docRef;
+}
+
 export const addNewTopic = async (topic) => {
   const docRef = firestore.collection('speaking-club').doc('questions');
   const snapShot = await docRef.get();

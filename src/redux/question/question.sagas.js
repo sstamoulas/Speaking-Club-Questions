@@ -9,10 +9,7 @@ import {
   fetchQuestionsFailure,
 } from './../question/question.actions';
 
-import { 
-  getAllQuestions, 
-  submitNewQuestions, 
-} from '../../firebase/firebase.utils';
+import { getAllQuestions, submitNewQuestions } from '../../firebase/firebase.utils';
 
 export function* submitQuestionsAsync({ payload: { questions }}) {
   try {
